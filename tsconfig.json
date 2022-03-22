@@ -18,8 +18,14 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "preserve",
-    "incremental": true
+    // "jsx": "preserve",
+    "incremental": true,
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "jsx": "react",
+    // "esModuleInterop": true,
+    // "allowJs": true,
+    // "allowSyntheticDefaultImports": true
   },
   "include": [
     "src"

@@ -21,7 +21,10 @@ interface IRefreshButtonProps {
 const RefreshButton = (props: IRefreshButtonProps) =>
 (
     <>
-        <RefreshButtonStyled onClick={() => props.onClick()} variant="contained" endIcon={<RefreshIcon />}>
+        <RefreshButtonStyled
+            onClick={() => props.onClick()}
+            variant="contained"
+            endIcon={<RefreshIcon />}>
             Refresh
         </RefreshButtonStyled>
     </>

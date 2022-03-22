@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { getCoinsData } from '../../endpoints/CryptoCoin';
 import MUIDataTable from "mui-datatables";
 import { ICoinDto } from "../../interfaces/ICoin";
-import RefreshButton from "../Buttons/RefreshButton";
+import RefreshButton from "../buttons/RefreshButton";
 
 
 export function DataTable() {
@@ -52,7 +52,7 @@ function getColumnDefinition() {
             options: {
                 filter: true,
                 sort: true,
-                visible: false
+                display: false
             }
         },
         {
@@ -61,6 +61,7 @@ function getColumnDefinition() {
             options: {
                 filter: true,
                 sort: false,
+                display: false
             }
         },
         {

@@ -1,3 +1,4 @@
+import React from 'react'
 import { ICoinDto, IInputCoin } from "../interfaces/ICoin";
 
 export class Coin implements ICoinDto {
@@ -8,7 +9,10 @@ export class Coin implements ICoinDto {
     LogoUrl: string;
     get LogoJSX(): JSX.Element {
         return (<div style={{ width: 30 }}>
-            <img alt={`Logo of ${this.Coin_name}`} style={{ width: '100%' }} src={this.LogoUrl} />
+            <img
+                alt={`Logo of ${this.Coin_name}`}
+                style={{ width: '100%' }}
+                src={this.LogoUrl} />
         </div>);
     }
 

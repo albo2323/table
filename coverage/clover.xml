@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1647976443214" clover="3.2.0">
+  <project timestamp="1647976443214" name="All files">
+    <metrics statements="26" coveredstatements="18" conditionals="5" coveredconditionals="4" methods="6" coveredmethods="3" elements="37" coveredelements="25" complexity="0" loc="26" ncloc="26" packages="3" files="3" classes="3"/>
+    <package name="components.tableComponent.logic.requests">
+      <metrics statements="6" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <file name="index.tsx" path="/Users/alina/Desktop/coinify/git/table/src/components/tableComponent/logic/requests/index.tsx">
+        <metrics statements="6" coveredstatements="5" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="6" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="10" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="12" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="endpoints">
+      <metrics statements="10" coveredstatements="9" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="1"/>
+      <file name="CryptoCoin.ts" path="/Users/alina/Desktop/coinify/git/table/src/endpoints/CryptoCoin.ts">
+        <metrics statements="10" coveredstatements="9" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="17" count="1" type="cond" truecount="3" falsecount="0"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="models">
+      <metrics statements="10" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+      <file name="Coin.tsx" path="/Users/alina/Desktop/coinify/git/table/src/models/Coin.tsx">
+        <metrics statements="10" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
